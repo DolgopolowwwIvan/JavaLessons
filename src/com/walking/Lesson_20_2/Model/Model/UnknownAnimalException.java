@@ -1,4 +1,4 @@
-package com.walking.Lesson_21_2.Model.Model;
+package com.walking.Lesson_20_2.Model.Model;
 
 public class UnknownAnimalException extends Exception{
 
