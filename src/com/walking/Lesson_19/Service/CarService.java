@@ -1,6 +1,6 @@
 package com.walking.Lesson_19.Service;
 
-import com.walking.Lesson_12.counterAggregation.model.Counter;
+
 import com.walking.Lesson_19.Model.Car;
 
 public class CarService {
