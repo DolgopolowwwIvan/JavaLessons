@@ -1,6 +1,6 @@
 package com.walking.Lesson_38.Model;
 
-public class Car {
+public class Car implements Comparable<Car>{
     //    Уникальным идентификатором будет объект immutable класса CarIdentifier
     private final CarIdentifier identifier;
 
@@ -51,5 +51,10 @@ public class Car {
                 """.formatted(
                 identifier.getNumber(), identifier.getYear(), color,
                 actualTechnicalInspection ? "actual" : "not actual");
+    }
+
+    @Override
+    public int compareTo(Car o) {
+        return 0;
     }
 }
