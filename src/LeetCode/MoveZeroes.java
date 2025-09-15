@@ -5,14 +5,14 @@ public class MoveZeroes {
         int left = 0;
 
         for (int right = 1; right < nums.length; right++) {
-            if (nums[left] == 0){
-                if (nums[right] != 0){
+            if (nums[left] == 0) {
+                if (nums[right] != 0) {
                     nums[left] = nums[right];
                     nums[right] = 0;
                     left++;
                 }
 
-            }else {
+            } else {
                 left++;
             }
 
