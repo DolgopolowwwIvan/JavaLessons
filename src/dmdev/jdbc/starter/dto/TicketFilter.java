@@ -1,0 +1,5 @@
+package dmdev.jdbc.starter.dto;
+
+public record TicketFilter(int limit, int offset) {
+
+}
